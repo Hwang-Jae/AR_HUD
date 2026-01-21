@@ -44,6 +44,14 @@
             border-color: #00f3ff;
             box-shadow: 0 10px 30px -10px rgba(0, 243, 255, 0.2);
         }
+
+	.phase-img-wrapper a {
+    	display: block;
+    	width: 100%;
+    	height: 100%;
+    	cursor: pointer;
+	}
+
         /* Custom Scrollbar */
         ::-webkit-scrollbar {
             width: 8px;
@@ -164,7 +172,9 @@
                 <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-transparent z-10"></div>
                 <div class="text-center z-20">
                     <i class="fas fa-road text-6xl text-gray-600 mb-4 group-hover:text-neon-blue transition-colors duration-500"></i>
-                    <p class="text-gray-400 text-sm font-mono">Future Cockpit Visualization</p>
+                    <div class="phase-img-wrapper">
+                        <img src="image1.png" alt="Future Cockpit Visualization">
+                    </div>
                 </div>
                 <!-- Scanning Effect Grid -->
                 <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/dark-matter.png')] opacity-30"></div>
